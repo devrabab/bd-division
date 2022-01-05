@@ -1,0 +1,12 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0%;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.display-flex {
+  display: flex;
+}
