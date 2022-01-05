@@ -1,14 +1,84 @@
 body {
-  font-family: "Moon Dance", cursive;
+  font-family: "Poppins", sans-serif;
   margin: 0%;
+  text-align: center;
 }
-.half-width {
-  width: 50%;
-  padding-left: 5%;
-}
-
-.display-flex {
+.first-section {
   display: flex;
+  width: 96%;
+  margin: 0 auto;
+}
+.photo img {
+  width: 500px;
+}
+.bd-button {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(45deg, green, red, green);
+  color: white;
+  border-radius: 5px;
+}
+.bd-button:hover {
+  background-image: linear-gradient(45deg, red, green, red);
+  cursor: pointer;
+}
+.dhaka {
+  width: 400px;
+  box-shadow: 10px 10px 10px grey;
+}
+.dha-img img {
+  width: 100%;
+}
+.dha-btn {
+  background-color: tomato;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.dha-btn:hover {
+  background-color: red;
+}
+.ctg {
+  width: 400px;
+  box-shadow: 10px 10px 10px grey;
+}
+.ctg-img img {
+  width: 100%;
+}
+.ctg-btn {
+  background-color: salmon;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.ctg-btn:hover {
+  background-color: sienna;
+}
+.raj {
+  width: 400px;
+  box-shadow: 10px 10px 10px grey;
+}
+.raj-img img {
+  width: 100%;
+}
+.raj-btn {
+  background-color: springgreen;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.raj-btn:hover {
+  background-color: steelblue;
+}
+.second-section {
+  display: flex;
+
+  justify-content: space-around;
+  margin-top: 20px;
+  box-shadow: grey;
 }
 footer p {
   text-align: center;
