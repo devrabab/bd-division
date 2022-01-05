@@ -1,5 +1,5 @@
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Moon Dance", cursive;
   margin: 0%;
 }
 .half-width {
@@ -9,4 +9,7 @@ body {
 
 .display-flex {
   display: flex;
+}
+footer p {
+  text-align: center;
 }
